@@ -1,0 +1,6 @@
+package com.github.hadesfranklyn.domain;
+
+public abstract class Pessoa {
+	
+	
+}
