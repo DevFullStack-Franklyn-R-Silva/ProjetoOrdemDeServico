@@ -1,0 +1,21 @@
+package com.github.hadesfranklyn.services;
+
+import java.util.Arrays;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.github.hadesfranklyn.domain.Cliente;
+import com.github.hadesfranklyn.domain.OrdemDeServico;
+import com.github.hadesfranklyn.domain.Tecnico;
+import com.github.hadesfranklyn.domain.enums.Prioridade;
+import com.github.hadesfranklyn.domain.enums.Status;
+import com.github.hadesfranklyn.repositories.ClienteRepository;
+import com.github.hadesfranklyn.repositories.OrdemDeServicoRepository;
+import com.github.hadesfranklyn.repositories.TecnicoRepository;
+
+@Service
+public class TecnicoService {
+
+
+}

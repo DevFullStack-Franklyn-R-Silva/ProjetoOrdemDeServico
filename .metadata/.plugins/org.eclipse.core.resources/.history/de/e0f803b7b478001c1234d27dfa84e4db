@@ -1,0 +1,31 @@
+package com.github.hadesfranklyn.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.github.hadesfranklyn.domain.Tecnico;
+import com.github.hadesfranklyn.repositories.TecnicoRepository;
+
+@Service
+public class DBService {
+
+	@Autowired
+	private DBService dbService;
+
+	@Value("${spring.jpa.hibernate.ddl-auto}")
+	private String ddl;
+
+	@Bean
+	public boolean instanciaDB() {
+
+		if (ddl.equals("create")) {
+			this.dbService.instanciaDB();
+		}
+
+		return false;
+
+	}
+}

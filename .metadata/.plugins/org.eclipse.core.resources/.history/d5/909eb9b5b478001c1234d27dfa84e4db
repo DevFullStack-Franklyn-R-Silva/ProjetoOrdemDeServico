@@ -1,0 +1,26 @@
+package com.github.hadesfranklyn.services;
+
+import java.util.List;
+import java.util.Optional;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.github.hadesfranklyn.domain.Tecnico;
+import com.github.hadesfranklyn.repositories.TecnicoRepository;
+
+@Service
+public class DBService {
+
+	@Autowired
+	private TecnicoRepository tecnicoRepository;
+
+	public List<Tecnico> findAll() {
+		return tecnicoRepository.findAll();
+	}
+
+	public Tecnico findById(Long id) {
+		Optional<Tecnico> obj = tecnicoRepository.getById(id);
+		return obj.get();
+	}
+}

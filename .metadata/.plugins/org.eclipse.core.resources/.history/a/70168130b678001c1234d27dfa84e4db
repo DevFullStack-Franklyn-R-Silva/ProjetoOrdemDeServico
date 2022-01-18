@@ -1,0 +1,37 @@
+package com.github.hadesfranklyn.services;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.annotation.Bean;
+import org.springframework.stereotype.Service;
+
+import com.github.hadesfranklyn.domain.OrdemDeServico;
+
+@Service
+public class DBService {
+
+	@Autowired
+	private TecnicoRepository tecnicoRepository;
+
+	@Autowired
+	private ClienteRepository clienteRepository;
+
+	@Autowired
+	private OrdemDeServicoRepository ordemDeServicoRepository;
+
+	@Bean
+	public boolean instanciaDB() {
+
+		Tecnico t1 = new Tecnico(null, "Franklyn Roberto", "929.031.800-75", "(82) 93539-9999");
+		Cliente c1 = new Cliente(null, "Betina Campos", "929.031.800-75", "(82) 98981-5558");
+		OrdemDeServico os1 = new OrdemDeServico(null, Prioridade.ALTA, "Teste create OS", Status.ANDAMENTO, t1, c1);
+
+		t1.getList().add(os1);
+		c1.getList().add(os1);
+
+		tecnicoRepository.saveAll(Arrays.asList(t1));
+		clienteRepository.saveAll(Arrays.asList(c1));
+		ordemDeServicoRepository.saveAll(Arrays.asList(os1));
+
+	}
+}

@@ -27,6 +27,7 @@ public class DBService {
 	private OrdemDeServicoRepository ordemDeServicoRepository;
 
 	public void instanciaDB() {
+
 		Tecnico t1 = new Tecnico(null, "Franklyn Roberto", "929.031.800-75", "(82) 93539-9999");
 		Cliente c1 = new Cliente(null, "Betina Campos", "929.031.800-75", "(82) 98981-5558");
 		OrdemDeServico os1 = new OrdemDeServico(null, Prioridade.ALTA, "Teste create OS", Status.ANDAMENTO, t1, c1);
@@ -37,5 +38,6 @@ public class DBService {
 		tecnicoRepository.saveAll(Arrays.asList(t1));
 		clienteRepository.saveAll(Arrays.asList(c1));
 		ordemDeServicoRepository.saveAll(Arrays.asList(os1));
+
 	}
 }
