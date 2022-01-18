@@ -1,0 +1,43 @@
+package com.github.hadesfranklyn;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.github.hadesfranklyn.domain.Cliente;
+import com.github.hadesfranklyn.domain.OrdemDeServico;
+import com.github.hadesfranklyn.domain.Tecnico;
+import com.github.hadesfranklyn.domain.enums.Prioridade;
+import com.github.hadesfranklyn.domain.enums.Status;
+import com.github.hadesfranklyn.repositories.ClienteRepository;
+import com.github.hadesfranklyn.repositories.OrdemDeServicoRepository;
+import com.github.hadesfranklyn.repositories.TecnicoRepository;
+
+@SpringBootApplication
+public class BackendApplication implements CommandLineRunner {
+
+	@Autowired
+	private TecnicoRepository tecnicoRepository;
+	
+	@Autowired
+	private ClienteRepository clienteRepository;
+	
+	@Autowired
+	private OrdemDeServicoRepository ordemDeServicoRepository;
+	
+	public static void main(String[] args) {
+		SpringApplication.run(BackendApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+		Tecnico t1 = new Tecnico(null, "Franklyn Roberto","929.031.800-75" , "(82) 93539-9999");
+		Cliente c1 = new Cliente(null, "Betina Campos", "929.031.800-75", "(82) 98981-5558");
+		OrdemDeServico os1 = new OrdemDeServico(null, Prioridade.ALTA, "Teste create OS", Status.ANDAMENTO, t1, c1);
+		
+		
+	}
+
+}

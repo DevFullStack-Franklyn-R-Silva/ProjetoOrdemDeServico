@@ -1,0 +1,6 @@
+package com.github.hadesfranklyn.repositories;
+
+public interface TecnicoRepository {
+
+	
+}

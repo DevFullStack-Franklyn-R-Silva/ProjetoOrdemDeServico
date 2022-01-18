@@ -1,0 +1,24 @@
+package com.github.hadesfranklyn;
+
+import org.springframework.boot.CommandLineRunner;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+import com.github.hadesfranklyn.domain.Cliente;
+import com.github.hadesfranklyn.domain.Tecnico;
+
+@SpringBootApplication
+public class BackendApplication implements CommandLineRunner {
+
+	public static void main(String[] args) {
+		SpringApplication.run(BackendApplication.class, args);
+	}
+
+	@Override
+	public void run(String... args) throws Exception {
+		
+		Tecnico t1 = new Tecnico(null, "Franklyn Roberto","929.031.800-75" , "(82)  93539-9999");
+		Cliente c1 = new 
+	}
+
+}
