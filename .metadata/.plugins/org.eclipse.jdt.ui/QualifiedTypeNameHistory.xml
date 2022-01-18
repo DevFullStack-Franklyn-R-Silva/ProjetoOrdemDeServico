@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.github.hadesfranklyn.domain.Pessoa"/>
+    <fullyQualifiedTypeName name="com.github.hadesfranklyn.domain.enums.Prioridade"/>
+    <fullyQualifiedTypeName name="java.lang.IllegalArgumentException"/>
+</qualifiedTypeNameHistroy>
