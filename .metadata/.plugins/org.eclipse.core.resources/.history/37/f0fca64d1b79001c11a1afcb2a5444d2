@@ -1,0 +1,5 @@
+package com.github.hadesfranklyn.services.exceptions;
+
+public class DataIntegratyViolationException {
+
+}

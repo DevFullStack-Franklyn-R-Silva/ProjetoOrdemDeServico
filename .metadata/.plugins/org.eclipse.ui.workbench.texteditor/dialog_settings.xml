@@ -6,9 +6,12 @@
 		<item key="isRegEx" value="false"/>
 		<item key="selection" value="Status"/>
 		<list key="findhistory">
+			<item value="CategoryService"/>
+			<item value="dataFechamento"/>
 			<item value="Prioridade"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Te"/>
 			<item value="Status"/>
 		</list>
 	</section>
