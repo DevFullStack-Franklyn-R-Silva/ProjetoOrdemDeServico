@@ -2084,3 +2084,91 @@ Caused by: org.codehaus.plexus.util.xml.pull.XmlPullParserException: Unrecognise
 2022-01-18 21:15:26,286 [Worker-125: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
 2022-01-18 21:16:01,465 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2022-01-18 21:16:01,468 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:16:01,472 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:16:01,474 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:16:01,474 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:26:45,100 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:26:45,102 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:26:45,107 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:26:45,109 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:26:45,109 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:27:11,058 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:27:11,060 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:27:11,066 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:27:11,069 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:27:11,069 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:27:15,767 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:27:15,771 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:27:15,778 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:27:15,780 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:27:15,780 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:27:42,589 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:27:42,591 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:27:42,597 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:27:42,599 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:27:42,599 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:28:11,328 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:28:11,330 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:28:11,335 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:28:11,339 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:28:11,340 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:29:39,610 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:29:39,614 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:29:39,619 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:29:39,622 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:29:39,624 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:31:04,610 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:31:04,612 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:31:04,617 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:31:04,619 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:31:04,620 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:31:25,707 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:31:25,709 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:31:25,715 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:31:25,718 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:31:25,718 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:31:56,535 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:31:56,538 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:31:56,543 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:31:56,547 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:31:56,548 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:32:50,222 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:32:50,224 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:32:50,230 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:32:50,232 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:32:50,232 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:33:03,875 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:33:03,878 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:33:03,885 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:33:03,887 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:33:03,888 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:33:10,163 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:33:10,165 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:33:10,170 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:33:10,172 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:33:10,173 [Worker-132: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:35:07,772 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:35:07,774 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:35:07,779 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:35:07,781 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:35:07,781 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:35:15,810 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:35:15,812 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:35:15,819 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:35:15,821 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:35:15,821 [Worker-134: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:35:42,246 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:35:42,250 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:35:42,257 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:35:42,260 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:35:42,260 [Worker-103: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:37:05,805 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:37:05,807 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:37:05,813 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:37:05,816 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:37:05,816 [Worker-131: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources
+2022-01-18 21:37:55,277 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:37:55,279 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 3 resources
+2022-01-18 21:37:55,284 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2022-01-18 21:37:55,289 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2022-01-18 21:37:55,289 [Worker-128: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hades\Desktop\Projeto Ordem de Serviço\backend\src\test\resources

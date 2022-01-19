@@ -1,0 +1,5 @@
+package com.github.hadesfranklyn.services;
+
+public class ObjectNotFoundException {
+
+}
