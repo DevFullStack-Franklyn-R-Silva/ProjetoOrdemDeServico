@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import com.github.hadesfranklyn.dtos.ClienteDTO;
 import com.github.hadesfranklyn.dtos.OrdemDeServicoDTO;
 import com.github.hadesfranklyn.services.OrdemDeServicoService;
 
@@ -46,10 +47,10 @@ public class OrdemDeServicoResource {
 		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(obj.getId()).toUri();
 		return ResponseEntity.created(uri).build();
 	}
-
+	
 	@PutMapping
-	public ResponseEntity<OrdemDeServicoDTO> update(@Valid @RequestBody OrdemDeServicoDTO objDTO) {
-		objDTO = new OrdemDeServicoDTO(ordemDeServicoService.update(objDTO));
+	public ResponseEntity<OrdemDeServicoDTO> update( @Valid @RequestBody OrdemDeServicoDTO objDTO) {
+		objDTO = new OrdemDeServicoDTO(ordemDeServicoService.update( objDTO));
 		return ResponseEntity.ok().body(objDTO);
 	}
 }

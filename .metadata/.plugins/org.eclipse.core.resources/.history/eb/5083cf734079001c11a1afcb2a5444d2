@@ -46,10 +46,10 @@ public class OrdemDeServicoResource {
 		URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(obj.getId()).toUri();
 		return ResponseEntity.created(uri).build();
 	}
-
+	
 	@PutMapping
-	public ResponseEntity<OrdemDeServicoDTO> update(@Valid @RequestBody OrdemDeServicoDTO objDTO) {
-		objDTO = new OrdemDeServicoDTO(ordemDeServicoService.update(objDTO));
+	public ResponseEntity<OrdemDeServicoDTO> update( @Valid @RequestBody OrdemDeServicoDTO objDTO) {
+		objDTO = new OrdemDeServicoDTO(ordemDeServicoService.update( objDTO));
 		return ResponseEntity.ok().body(objDTO);
 	}
 }

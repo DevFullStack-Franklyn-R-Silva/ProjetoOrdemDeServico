@@ -61,11 +61,9 @@ public class OrdemDeServicoService {
 
 		newObj.setTecnico(tec);
 		newObj.setCliente(cli);
-		
 		if (newObj.getStatus().getCod().equals(2)) {
 			newObj.setDataFechamento(LocalDateTime.now());
 		}
-		
 		return ordemDeServicoRepository.save(newObj);
 	}
 
