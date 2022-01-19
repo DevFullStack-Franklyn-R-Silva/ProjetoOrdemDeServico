@@ -7,6 +7,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.github.hadesfranklyn.domain.Tecnico;
+import com.github.hadesfranklyn.dtos.TecnicoDTO;
 import com.github.hadesfranklyn.repositories.TecnicoRepository;
 import com.github.hadesfranklyn.services.exceptions.ObjectNotFoundException;
 
@@ -24,5 +25,9 @@ public class TecnicoService {
 
 	public List<Tecnico> findAll() {
 		return tecnicoRepository.findAll();
+	}
+	
+	public Tecnico create(TecnicoDTO objDTO) {
+		return tecnicoRepository.save(new Tecnico(null, objDTO.getNome(), objDTO.getCpf(), objDTO.getTelefone()));
 	}
 }
