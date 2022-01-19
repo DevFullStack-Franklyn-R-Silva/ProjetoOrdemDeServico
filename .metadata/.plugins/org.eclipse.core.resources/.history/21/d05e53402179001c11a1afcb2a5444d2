@@ -47,7 +47,6 @@ public class TecnicoService {
 		oldObj.setNome(objDTO.getNome());
 		oldObj.setCpf(objDTO.getCpf());
 		oldObj.setTelefone(objDTO.getTelefone());
-		return tecnicoRepository.save(oldObj);
 	}
 
 	private Tecnico findByCPF(TecnicoDTO objDTO) {
