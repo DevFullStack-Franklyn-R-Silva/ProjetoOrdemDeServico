@@ -1,0 +1,27 @@
+package com.github.hadesfranklyn.resources;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.github.hadesfranklyn.dtos.OrdemDeServicoDTO;
+import com.github.hadesfranklyn.dtos.TecnicoDTO;
+import com.github.hadesfranklyn.repositories.OrdemDeServicoRepository;
+
+@RestController
+@RequestMapping(value = "/ordemDeServico")
+public class OrdemDeServicoResource {
+
+	@Autowired
+	private OrdemDeServicoRepository ordemDeServicoRepository;
+	
+	@GetMapping(value = "/{id}")
+	public ResponseEntity<OrdemDeServicoDTO> findById(@PathVariable Integer id) {
+		OrdemDeServicoDTO objDTO = new OrdemDeServicoDTO(ordemDeServicoRepository.findById(id));
+		return ResponseEntity.ok().body(objDTO);
+	}
+
+}

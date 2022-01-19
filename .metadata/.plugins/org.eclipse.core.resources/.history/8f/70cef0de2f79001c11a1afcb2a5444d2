@@ -1,0 +1,39 @@
+package com.github.hadesfranklyn.dtos;
+
+import java.io.Serializable;
+import java.time.LocalDateTime;
+
+import com.github.hadesfranklyn.domain.Cliente;
+import com.github.hadesfranklyn.domain.OrdemDeServico;
+import com.github.hadesfranklyn.domain.Tecnico;
+
+public class OrdemDeServicoDTO implements Serializable {
+	private static final long serialVersionUID = 1L;
+
+	private Integer id;
+	private LocalDateTime dataAbertura;
+	private LocalDateTime dataFechamento;
+	private Integer prioridade;
+	private String observacoes;
+	private Integer status;
+	private Integer tecnico;
+	private Integer cliente;
+
+	public OrdemDeServicoDTO() {
+		super();
+	}
+
+	public OrdemDeServicoDTO(OrdemDeServico obj) {
+		super();
+		id = obj.getId();
+		dataAbertura = obj.getDataAbertura();
+		dataFechamento = obj.getDataFechamento();
+		prioridade = obj.getPrioridade().getCod();
+		observacoes = obj.getObservacoes();
+		status = obj.getStatus().getCod();
+		tecnico = obj.getTecnico().getId();
+		cliente = obj.getCliente().getId();
+	}
+
+	
+}
