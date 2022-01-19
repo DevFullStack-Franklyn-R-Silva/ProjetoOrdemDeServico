@@ -1,0 +1,13 @@
+package com.github.hadesfranklyn.services;
+
+import org.springframework.stereotype.Service;
+
+import com.github.hadesfranklyn.domain.Tecnico;
+
+@Service
+public class TecnicoService {
+
+	public Tecnico findById(Integer id) {
+		
+	}
+}

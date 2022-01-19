@@ -8,11 +8,14 @@ import javax.persistence.Entity;
 import javax.persistence.OneToMany;
 import javax.persistence.Table;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 @Table(name = "tb_tecnico")
 public class Tecnico extends Pessoa implements Serializable {
 	private static final long serialVersionUID = 1L;
 
+	@JsonIgnore
 	@OneToMany(mappedBy = "tecnico")
 	private List<OrdemDeServico> list = new ArrayList<>();
 
