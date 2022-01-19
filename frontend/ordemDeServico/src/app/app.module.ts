@@ -15,17 +15,18 @@ import { MatSidenavModule } from "@angular/material/sidenav";
 import { MatIconModule } from "@angular/material/icon";
 import { MatButtonModule } from "@angular/material/button";
 import { MatListModule } from "@angular/material/list";
-import { MatCardModule } from "@angular/material/card";
 import { MatTableModule } from "@angular/material/table";
 import { MatPaginatorModule } from "@angular/material/paginator";
 import { MatSnackBarModule } from "@angular/material/snack-bar";
+import {MatCardModule} from '@angular/material/card';
 
 import { HeaderComponent } from './views/components/template/header/header.component';
 import { FooterComponent } from './views/components/template/footer/footer.component';
 import { NavComponent } from './views/components/template/nav/nav.component';
+import { HomeComponent } from './views/components/home/home.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, NavComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, NavComponent, HomeComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -44,13 +45,13 @@ import { NavComponent } from './views/components/template/nav/nav.component';
     MatIconModule,
     MatButtonModule,
     MatListModule,
-    MatCardModule,
     MatTableModule,
     MatSelectModule,
     MatInputModule,
     MatDatepickerModule,
     MatPaginatorModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent],
