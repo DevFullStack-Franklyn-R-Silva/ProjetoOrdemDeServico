@@ -3,10 +3,17 @@ package com.github.hadesfranklyn.services;
 import java.util.List;
 import java.util.Optional;
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
+import com.github.hadesfranklyn.domain.Cliente;
 import com.github.hadesfranklyn.domain.OrdemDeServico;
+import com.github.hadesfranklyn.domain.Tecnico;
+import com.github.hadesfranklyn.domain.enums.Prioridade;
+import com.github.hadesfranklyn.domain.enums.Status;
+import com.github.hadesfranklyn.dtos.OrdemDeServicoDTO;
 import com.github.hadesfranklyn.repositories.OrdemDeServicoRepository;
 import com.github.hadesfranklyn.services.exceptions.ObjectNotFoundException;
 
@@ -15,6 +22,12 @@ public class OrdemDeServicoService {
 
 	@Autowired
 	private OrdemDeServicoRepository ordemDeServicoRepository;
+	
+	@Autowired
+	private TecnicoService tecnicoService;
+	
+	@Autowired
+	private ClienteService clienteService;
 
 	public OrdemDeServico findById(Integer id) {
 		Optional<OrdemDeServico> obj = ordemDeServicoRepository.findById(id);
@@ -25,5 +38,26 @@ public class OrdemDeServicoService {
 	public List<OrdemDeServico> findAll() {
 		return ordemDeServicoRepository.findAll();
 	}
+
+	public OrdemDeServico create(@Valid OrdemDeServicoDTO objDTO) {
+		return fromDTO(objDTO);
+	}
+	private OrdemDeServico fromDTO(OrdemDeServicoDTO objDTO) {
+		OrdemDeServico newObj = new OrdemDeServico();
+		newObj.setId(objDTO.getId());
+		newObj.setObservacoes(objDTO.getObservacoes());
+		newObj.setPrioridade(Prioridade.toEnum(objDTO.getPrioridade()));
+		newObj.setStatus(Status.toEnum(objDTO.getStatus()));
+		
+		Tecnico tec = tecnicoService.findById(objDTO.getTecnico());
+		Cliente cli = clienteService.findById(objDTO.getCliente());
+		
+		newObj.setTecnico(tec);
+		newObj.setCliente(cli);
+		
+		return ordemDeServicoRepository.save(newObj);
+	}
+		
+	
 
 }
