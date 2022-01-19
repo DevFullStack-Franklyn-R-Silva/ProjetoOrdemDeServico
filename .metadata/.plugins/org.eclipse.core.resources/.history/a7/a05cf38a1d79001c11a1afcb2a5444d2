@@ -1,0 +1,5 @@
+package com.github.hadesfranklyn.resources.exceptions;
+
+public class FieldMessade {
+
+}
