@@ -26,8 +26,9 @@ import { NavComponent } from './views/components/template/nav/nav.component';
 import { HomeComponent } from './views/components/home/home.component';
 import { TecnicoReadComponent } from './views/components/tecnico/tecnico-read/tecnico-read.component';
 
+
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, NavComponent, HomeComponent, TecnicoReadComponent],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, NavComponent, HomeComponent, TecnicoReadComponent ],
   imports: [
     BrowserModule,
     AppRoutingModule,
@@ -52,7 +53,8 @@ import { TecnicoReadComponent } from './views/components/tecnico/tecnico-read/te
     MatDatepickerModule,
     MatPaginatorModule,
     MatSnackBarModule,
-    MatCardModule
+    MatCardModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent],
