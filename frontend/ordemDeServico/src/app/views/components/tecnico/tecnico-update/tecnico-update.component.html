@@ -1,5 +1,5 @@
 <form class="form mat-elavation-z8">
-    <h1>Criando novo técnico</h1>
+    <h1>Atualizando técnico</h1>
     <mat-form-field class="full-width" appearance="fill">
         <mat-label>Nome</mat-label>
         <input [(ngModel)]="tecnico.nome" [formControl]="nome" required name="nome" maxlength="100" matInput placeholder="Ex. Linus Torvalds">
@@ -19,7 +19,7 @@
     </mat-form-field>
 
 
-    <button class="mat-elavation-z8" (click)="create()" [disabled]="errorValidName() || errorValidCpf() || errorValidTelefone()" mat-stroked-button color="accent">CRIAR</button>
+    <button class="mat-elavation-z8" [disabled]="errorValidName() || errorValidCpf() || errorValidTelefone()" mat-stroked-button color="accent">CRIAR</button>
     <button class="mat-elavation-z8" (click)="cancel()" mat-stroked-button color="warn">CANCELAR</button>
 
 
