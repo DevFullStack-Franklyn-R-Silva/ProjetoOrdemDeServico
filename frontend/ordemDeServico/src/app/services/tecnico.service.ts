@@ -11,14 +11,16 @@ import { Tecnico } from "../models/tecnico";
 export class TecnicoService {
   baseUrl: String = environment.baseUrl;
 
-  constructor(
-    private http: HttpClient,
-    private snack: MatSnackBar
-    ) {}
+  constructor(private http: HttpClient, private snack: MatSnackBar) {}
 
   findAll(): Observable<Tecnico[]> {
     const url = this.baseUrl + "/tecnicos";
     return this.http.get<Tecnico[]>(url);
+  }
+  
+  findById(id: any): Observable<Tecnico> {
+    const url = `${this.baseUrl}/tecnicos/${id}`;
+    return this.http.get<Tecnico>(url);
   }
 
   create(tecnico: Tecnico): Observable<Tecnico> {
@@ -26,11 +28,16 @@ export class TecnicoService {
     return this.http.post<Tecnico>(url, tecnico);
   }
 
-  message(msg : String ): void{
-    this.snack.open(`${msg}`,'OK', {
-      horizontalPosition: 'end',
-      verticalPosition: 'top',
-      duration: 4000
-    })
+  update(tecnico: Tecnico): Observable<Tecnico> {
+    const url = `${this.baseUrl}/tecnicos/${tecnico.id}`;
+    return this.http.put<Tecnico>(url, tecnico);
+  }
+
+  message(msg: String): void {
+    this.snack.open(`${msg}`, "OK", {
+      horizontalPosition: "end",
+      verticalPosition: "top",
+      duration: 4000,
+    });
   }
 }

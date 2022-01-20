@@ -19,7 +19,7 @@
     </mat-form-field>
 
 
-    <button class="mat-elavation-z8" [disabled]="errorValidName() || errorValidCpf() || errorValidTelefone()" mat-stroked-button color="accent">CRIAR</button>
+    <button class="mat-elavation-z8" (click)="update()" [disabled]="errorValidName() || errorValidCpf() || errorValidTelefone()" mat-stroked-button color="accent">Atualizar</button>
     <button class="mat-elavation-z8" (click)="cancel()" mat-stroked-button color="warn">CANCELAR</button>
 
 
