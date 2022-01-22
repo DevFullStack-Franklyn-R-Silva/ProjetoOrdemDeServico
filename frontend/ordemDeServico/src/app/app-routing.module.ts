@@ -1,6 +1,7 @@
 import { NgModule } from "@angular/core";
 import { RouterModule, Routes } from "@angular/router";
 import { ClienteCreateComponent } from "./views/components/cliente-create/cliente-create.component";
+import { ClienteDeleteComponent } from "./views/components/cliente-delete/cliente-delete.component";
 import { ClienteReadComponent } from "./views/components/cliente-read/cliente-read.component";
 import { ClienteUpdateComponent } from "./views/components/cliente-update/cliente-update.component";
 import { HomeComponent } from "./views/components/home/home.component";
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: "clientes/update/:id",
     component: ClienteUpdateComponent,
+  },
+  {
+    path: "clientes/delete/:id",
+    component: ClienteDeleteComponent,
   },
 ];
 
