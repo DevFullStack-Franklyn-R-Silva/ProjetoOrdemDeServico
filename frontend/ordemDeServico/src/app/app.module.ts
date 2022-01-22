@@ -28,10 +28,11 @@ import { TecnicoReadComponent } from './views/components/tecnico/tecnico-read/te
 import { TecnicoCreateComponent } from './views/components/tecnico/tecnico-create/tecnico-create.component';
 import { TecnicoUpdateComponent } from './views/components/tecnico/tecnico-update/tecnico-update.component';
 import { TecnicoDeleteComponent } from './views/components/tecnico/tecnico-delete/tecnico-delete.component';
+import { ClienteReadComponent } from './views/components/cliente-read/cliente-read.component';
 
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, FooterComponent, NavComponent, HomeComponent, TecnicoReadComponent, TecnicoCreateComponent, TecnicoUpdateComponent, TecnicoDeleteComponent ],
+  declarations: [AppComponent, HeaderComponent, FooterComponent, NavComponent, HomeComponent, TecnicoReadComponent, TecnicoCreateComponent, TecnicoUpdateComponent, TecnicoDeleteComponent, ClienteReadComponent ],
   imports: [
     BrowserModule,
     AppRoutingModule,
